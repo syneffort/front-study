@@ -1,0 +1,21 @@
+.wrap {
+    background-color: slategray;
+    height: 500px;
+    display: flex;
+    flex-direction: row; /* 자식 요소 배치 방향 */
+    justify-content: flex-end; /* 가로 방향 정렬 */
+    align-items:center /* 세로 방향 정렬 */
+}
+
+.wrap > div {
+    flex-grow: 1;
+    height: 200px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: skyblue;
+    color: white
+}
+
+.wrap > div:nth-child(2) {
+    flex-grow: 2;
+}
