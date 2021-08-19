@@ -1,0 +1,31 @@
+.wrap {
+    height: 3000px;
+    position: relative;
+}
+
+.wrap > div {
+    border: 1px solid gray;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    position: static;
+}
+
+.wrap > div:nth-child(4) {
+    color: red;
+    position: relative; /* static이 아닌 상위 기준 */
+    top: 40px;
+    left: 40px;
+}
+
+.wrap > div:nth-child(2) {
+    position: absolute; /* 부모 기준 */
+    top: 20px;
+    left: 20px;
+}
+
+.wrap > div:nth-child(3) {
+    position: fixed; /* static이 아닌 상위 기준 스크롤이 생겨도 고정 */
+    top: 20px;
+    left: 20px;
+}
