@@ -1,6 +1,6 @@
 .wrap {
     height: 3000px;
-    position: relative;
+    position: relative; /* 부모를 static이 아닌 relative로 두면 하위 고정에 유리 */
 }
 
 .wrap > div {
