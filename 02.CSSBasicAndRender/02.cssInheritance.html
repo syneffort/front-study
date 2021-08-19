@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Document</title>
+    <style>
+        /* 태그 아래 자식들에게 상속됨 */
+        body > div {
+            color: green;
+            font-size: 30px;
+            /* 배치와 관련된 태그 자식들에게 상속되지 않음 */
+            border: 2px solid slategrey;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span>my text is upper!</span>
+        <ul>
+            <li>
+                <span>my text is dummy</span>
+                <div>
+                    <p>영국 추리소설 ‘셜록 홈스’를 현대적으로 각색한 영국 BBC 드라마 ‘셜록’과 미국 할리우드 영화 ‘셜록 홈스’ 시리즈는 우리나라는 물론 전 세계에서 흥행 돌풍을 일으키며 ‘홈스 신드롬’을 일으켰다. 영국 스코틀랜드 출신 추리소설 작가 코난 도일(1859~1930)은 1887년 홈스를 소설에 처음 등장시킨 이후 사망할 때까지 관련 시리즈 수십 편을 남겼다. 셜록홈즈도 저작자 사망 70년이 지났기 때문에 저작권료를 지불하지 않고 이용이 가능하다. 단, 미국 저작권법은 1923년 이후 나온 저작물에 대해 95년간 저작권을 인정하고 있기때문에 미국에서는 일부만 사용이 가능하다.</p>
+                </div>
+            </li>
+            <li></li>
+        </ul>
+    </div>
+</body>
+</html>
