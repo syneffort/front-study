@@ -1,0 +1,40 @@
+@base_width: 300px;
+@base_height: 200px;
+@gray_border: 1px solid gray;
+@text_base_color : #6b7275;
+
+.wrap {
+    width: @base_width;
+    height: @base_height;
+    border: @gray_border;
+    padding: 1rem;
+}
+
+.wrap h3 {
+    text-align: center;
+    color: @text_base_color;
+}
+
+.content {
+    width: 200px;
+    height: @base_height / 2;
+    border: @gray_border;
+    margin: 0px auto;
+    li {
+        list-style: none;
+
+        a {
+            color: @text_base_color;
+        }
+    }
+}
+
+footer ul {
+    .content;
+    margin-top: 12rem;
+}
+
+footer li {
+    list-style: none;
+    color: #745f67;
+}
