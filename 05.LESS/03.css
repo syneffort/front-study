@@ -1,0 +1,40 @@
+.wrap {
+  width: 300px;
+  height: 200px;
+  border: 1px solid gray;
+  padding: 1rem;
+  margin: 0px auto;
+}
+.wrap h3 {
+  text-align: center;
+  color: #6b7275;
+}
+.content {
+  width: 200px;
+  height: 200px / 2;
+  border: 1px solid gray;
+  margin: 0px auto;
+}
+.content li {
+  list-style: none;
+}
+.content li a {
+  color: #6b7275;
+}
+footer ul {
+  width: 200px;
+  height: 200px / 2;
+  border: 1px solid gray;
+  margin: 0px auto;
+  margin-top: 12rem;
+}
+footer ul li {
+  list-style: none;
+}
+footer ul li a {
+  color: #6b7275;
+}
+footer li {
+  list-style: none;
+  color: #745f67;
+}
