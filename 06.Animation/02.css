@@ -1,0 +1,23 @@
+.wrap {
+    position: relative;
+    transform: translate3d(40px, 0, 0);
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: slategrey;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+    transition: all 3s ease-out;
+}
+
+.box:nth-child(2) {
+    transform: translate3D(150px, 150px, 0) rotateZ(360deg);
+}
+
+.box:nth-child(3) {
+    transform: translate3D(300px, 300px ,0) rotateZ(720deg);
+}
